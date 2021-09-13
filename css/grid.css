@@ -1,0 +1,66 @@
+.cell
+{
+    all: unset;
+
+    height: 50px;
+    width: 50px;
+}
+
+.cell:hover
+{
+    background-color: grey;
+}
+
+.cell-filled
+{
+    background-color: white;
+}
+
+.cell-empty
+{
+    background-color: black;
+}
+
+.cell-red
+{
+    background-color: red;
+}
+
+.cell-green
+{
+    background-color: green;
+}
+
+.circle
+{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: blue;
+
+    border-radius: 50%;
+
+    -webkit-transform: translate(calc(25px - 50%), -50%);
+    transform: translate(calc(25px - 50%), -50%);
+}
+
+.line
+{
+    padding: none;
+    margin: none;
+    height: 50px;
+}
+
+.grid
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+*
+{
+    background: blue;
+}
